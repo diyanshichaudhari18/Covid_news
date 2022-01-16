@@ -20,7 +20,6 @@ class App extends Component {
     const fetchedData = await fetchData(country);
     this.setState({ data: fetchedData, country: country });
   };
-
   render() {
     const { data, country } = this.state;
 
